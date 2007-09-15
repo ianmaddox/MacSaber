@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MacSaber' target in the 'MacSaber' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

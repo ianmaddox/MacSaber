@@ -1,0 +1,11 @@
+READ THE DISCLAIMER
+
+MacSaber is compatible with Mac laptops equipped with Sudden Motion Sensor (SMS) technology.
+
+MacBook and MacBook Pro Note:
+All computers in the MacBook and MacBook Pro line include SMS.
+
+iBook Note: 
+SMS only exists on iBooks built after July 26, 2005. These iBooks are either 1.33GHz or 1.42GHz. All 1.42GHz iBooks have SMS. Only 1.33 GHz iBooks with a scrolling trackpad, 512MB RAM (stock), and 40GB HDD (stock) have SMS.PowerBook Note: 
+SMS only exists on PowerBooks built after January 31, 2005. These PowerBooks are either 1.5GHz or 1.67GHz. All 1.67GHz PowerBooks have SMS. All 1.5GHz PowerBooks without backlit keyboard have SMS.  1.5GHz PowerBooks with both backlit keyboard and the 8X superdrive have SMS.
+Some PowerBooks contain a bug where the SMS will not work after certain power events until the computer is rebooted.  If your computer's SMS should work but doesn't, try rebooting.

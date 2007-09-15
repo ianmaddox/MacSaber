@@ -1,0 +1,12 @@
+READ THE DISCLAIMER
+
+1.1
+	Updated PowerBook5,7 Status
+	Added keyboard backlight actions for equipped notebooks
+	Improved update checker logic
+
+1.0 
+	Initial release
+	Added support for PowerBooks, Hi-res PowerBooks, and iBooks
+	Debug pane available
+	Check for updates link available

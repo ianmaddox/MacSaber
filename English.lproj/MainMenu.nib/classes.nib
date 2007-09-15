@@ -1,0 +1,33 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {"" = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = Foo; LANGUAGE = ObjC; SUPERCLASS = NSApplication; }, 
+        {
+            ACTIONS = {check = id; checkForUpdates = id; debug = id; report = id; }; 
+            CLASS = MacSaber; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                debugBox = id; 
+                debugPane = NSPanel; 
+                f1 = id; 
+                f1b = id; 
+                f2 = id; 
+                f2b = id; 
+                f3 = id; 
+                f3b = id; 
+                lbl1 = id; 
+                lbl2 = id; 
+                lbl3 = id; 
+                presButan = id; 
+                reportButton = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

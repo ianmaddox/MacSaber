@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CDF184C0A4A7CD8006C31D2 /* backlight.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF184B0A4A7CD8006C31D2 /* backlight.c */; };
+		3CDF187A0A4A8347006C31D2 /* lmutracker.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF18790A4A8347006C31D2 /* lmutracker.c */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		9B00EA780A1EE7DC0038C0D3 /* libIOKit.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B00EA770A1EE7DC0038C0D3 /* libIOKit.dylib */; };
+		9B00EA980A204E220038C0D3 /* MacSaber.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9B00EA960A204E220038C0D3 /* MacSaber.icns */; };
+		9B00EACF0A2050210038C0D3 /* hit0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B00EABA0A2050210038C0D3 /* hit0.wav */; };
+		9B00EAD00A2050210038C0D3 /* hit1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B00EABB0A2050210038C0D3 /* hit1.wav */; };
+		9B00EAD10A2050210038C0D3 /* hit2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B00EABC0A2050210038C0D3 /* hit2.wav */; };
+		9B00EAD20A2050210038C0D3 /* hit3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B00EABD0A2050210038C0D3 /* hit3.wav */; };
+		9B00EAD30A2050210038C0D3 /* hit4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B00EABE0A2050210038C0D3 /* hit4.wav */; };
+		9B00EAD40A2050210038C0D3 /* idle0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B00EABF0A2050210038C0D3 /* idle0.wav */; };
+		9B00EAD50A2050210038C0D3 /* idle1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B00EAC00A2050210038C0D3 /* idle1.wav */; };
+		9B00EAD60A2050210038C0D3 /* off0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B00EAC10A2050210038C0D3 /* off0.wav */; };
+		9B00EAD70A2050210038C0D3 /* on0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B00EAC20A2050210038C0D3 /* on0.wav */; };
+		9B00EAD80A2050210038C0D3 /* start0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B00EAC30A2050210038C0D3 /* start0.wav */; };
+		9B00EAD90A2050210038C0D3 /* strike0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B00EAC40A2050210038C0D3 /* strike0.wav */; };
+		9B00EADA0A2050210038C0D3 /* strike1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B00EAC50A2050210038C0D3 /* strike1.wav */; };
+		9B00EADB0A2050210038C0D3 /* strike2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B00EAC60A2050210038C0D3 /* strike2.wav */; };
+		9B00EADC0A2050210038C0D3 /* swing0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B00EAC70A2050210038C0D3 /* swing0.wav */; };
+		9B00EADD0A2050210038C0D3 /* swing1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B00EAC80A2050210038C0D3 /* swing1.wav */; };
+		9B00EADE0A2050210038C0D3 /* swing2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B00EAC90A2050210038C0D3 /* swing2.wav */; };
+		9B00EADF0A2050210038C0D3 /* swing3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B00EACA0A2050210038C0D3 /* swing3.wav */; };
+		9B00EAE00A2050210038C0D3 /* swing4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B00EACB0A2050210038C0D3 /* swing4.wav */; };
+		9B00EAE10A2050210038C0D3 /* swing5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B00EACC0A2050210038C0D3 /* swing5.wav */; };
+		9B00EAE20A2050210038C0D3 /* swing6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B00EACD0A2050210038C0D3 /* swing6.wav */; };
+		9B00EAE30A2050210038C0D3 /* swing7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B00EACE0A2050210038C0D3 /* swing7.wav */; };
+		9B1444BD0A254302006FA283 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1444BC0A254302006FA283 /* IOKit.framework */; };
+		9B15B98A0A252BBB00F643C9 /* defines.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B15B9890A252BBB00F643C9 /* defines.c */; };
+		9B37A3080A1C665E00AA0E72 /* MacSaber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B37A3070A1C665E00AA0E72 /* MacSaber.m */; };
+		9B4BFAA50A1E8D8F002FABE6 /* motion.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BFAA40A1E8D8F002FABE6 /* motion.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* MacSaber_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacSaber_Prefix.pch; sourceTree = "<group>"; };
+		3CDF184B0A4A7CD8006C31D2 /* backlight.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = backlight.c; sourceTree = "<group>"; };
+		3CDF18520A4A7CEA006C31D2 /* backlight.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = backlight.h; sourceTree = "<group>"; };
+		3CDF18690A4A8277006C31D2 /* lmucommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lmucommon.h; sourceTree = "<group>"; };
+		3CDF18790A4A8347006C31D2 /* lmutracker.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmutracker.c; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* MacSaber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacSaber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B00EA770A1EE7DC0038C0D3 /* libIOKit.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libIOKit.dylib; sourceTree = "<group>"; };
+		9B00EA960A204E220038C0D3 /* MacSaber.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = MacSaber.icns; path = SaberIcon/MacSaber.icns; sourceTree = "<group>"; };
+		9B00EABA0A2050210038C0D3 /* hit0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hit0.wav; sourceTree = "<group>"; };
+		9B00EABB0A2050210038C0D3 /* hit1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hit1.wav; sourceTree = "<group>"; };
+		9B00EABC0A2050210038C0D3 /* hit2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hit2.wav; sourceTree = "<group>"; };
+		9B00EABD0A2050210038C0D3 /* hit3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hit3.wav; sourceTree = "<group>"; };
+		9B00EABE0A2050210038C0D3 /* hit4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hit4.wav; sourceTree = "<group>"; };
+		9B00EABF0A2050210038C0D3 /* idle0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = idle0.wav; sourceTree = "<group>"; };
+		9B00EAC00A2050210038C0D3 /* idle1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = idle1.wav; sourceTree = "<group>"; };
+		9B00EAC10A2050210038C0D3 /* off0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = off0.wav; sourceTree = "<group>"; };
+		9B00EAC20A2050210038C0D3 /* on0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = on0.wav; sourceTree = "<group>"; };
+		9B00EAC30A2050210038C0D3 /* start0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = start0.wav; sourceTree = "<group>"; };
+		9B00EAC40A2050210038C0D3 /* strike0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = strike0.wav; sourceTree = "<group>"; };
+		9B00EAC50A2050210038C0D3 /* strike1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = strike1.wav; sourceTree = "<group>"; };
+		9B00EAC60A2050210038C0D3 /* strike2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = strike2.wav; sourceTree = "<group>"; };
+		9B00EAC70A2050210038C0D3 /* swing0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = swing0.wav; sourceTree = "<group>"; };
+		9B00EAC80A2050210038C0D3 /* swing1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = swing1.wav; sourceTree = "<group>"; };
+		9B00EAC90A2050210038C0D3 /* swing2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = swing2.wav; sourceTree = "<group>"; };
+		9B00EACA0A2050210038C0D3 /* swing3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = swing3.wav; sourceTree = "<group>"; };
+		9B00EACB0A2050210038C0D3 /* swing4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = swing4.wav; sourceTree = "<group>"; };
+		9B00EACC0A2050210038C0D3 /* swing5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = swing5.wav; sourceTree = "<group>"; };
+		9B00EACD0A2050210038C0D3 /* swing6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = swing6.wav; sourceTree = "<group>"; };
+		9B00EACE0A2050210038C0D3 /* swing7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = swing7.wav; sourceTree = "<group>"; };
+		9B1444BC0A254302006FA283 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		9B15B9890A252BBB00F643C9 /* defines.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = defines.c; sourceTree = "<group>"; };
+		9B37A3060A1C665E00AA0E72 /* MacSaber.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MacSaber.h; sourceTree = "<group>"; };
+		9B37A3070A1C665E00AA0E72 /* MacSaber.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MacSaber.m; sourceTree = "<group>"; };
+		9B4BFAA40A1E8D8F002FABE6 /* motion.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = motion.c; sourceTree = "<group>"; };
+		9B4BFAA60A1E8D99002FABE6 /* motion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = motion.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				9B00EA780A1EE7DC0038C0D3 /* libIOKit.dylib in Frameworks */,
+				9B1444BD0A254302006FA283 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9B37A3060A1C665E00AA0E72 /* MacSaber.h */,
+				9B37A3070A1C665E00AA0E72 /* MacSaber.m */,
+				9B4BFAA40A1E8D8F002FABE6 /* motion.c */,
+				9B4BFAA60A1E8D99002FABE6 /* motion.h */,
+				9B15B9890A252BBB00F643C9 /* defines.c */,
+				3CDF18690A4A8277006C31D2 /* lmucommon.h */,
+				3CDF18790A4A8347006C31D2 /* lmutracker.c */,
+				3CDF184B0A4A7CD8006C31D2 /* backlight.c */,
+				3CDF18520A4A7CEA006C31D2 /* backlight.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B1444BC0A254302006FA283 /* IOKit.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* MacSaber.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* MacSaber */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = MacSaber;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9B00EABA0A2050210038C0D3 /* hit0.wav */,
+				9B00EABB0A2050210038C0D3 /* hit1.wav */,
+				9B00EABC0A2050210038C0D3 /* hit2.wav */,
+				9B00EABD0A2050210038C0D3 /* hit3.wav */,
+				9B00EABE0A2050210038C0D3 /* hit4.wav */,
+				9B00EABF0A2050210038C0D3 /* idle0.wav */,
+				9B00EAC00A2050210038C0D3 /* idle1.wav */,
+				9B00EAC10A2050210038C0D3 /* off0.wav */,
+				9B00EAC20A2050210038C0D3 /* on0.wav */,
+				9B00EAC30A2050210038C0D3 /* start0.wav */,
+				9B00EAC40A2050210038C0D3 /* strike0.wav */,
+				9B00EAC50A2050210038C0D3 /* strike1.wav */,
+				9B00EAC60A2050210038C0D3 /* strike2.wav */,
+				9B00EAC70A2050210038C0D3 /* swing0.wav */,
+				9B00EAC80A2050210038C0D3 /* swing1.wav */,
+				9B00EAC90A2050210038C0D3 /* swing2.wav */,
+				9B00EACA0A2050210038C0D3 /* swing3.wav */,
+				9B00EACB0A2050210038C0D3 /* swing4.wav */,
+				9B00EACC0A2050210038C0D3 /* swing5.wav */,
+				9B00EACD0A2050210038C0D3 /* swing6.wav */,
+				9B00EACE0A2050210038C0D3 /* swing7.wav */,
+				32CA4F630368D1EE00C91783 /* MacSaber_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B00EA960A204E220038C0D3 /* MacSaber.icns */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B00EA770A1EE7DC0038C0D3 /* libIOKit.dylib */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* MacSaber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MacSaber" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacSaber;
+			productInstallPath = "$(HOME)/Applications";
+			productName = MacSaber;
+			productReference = 8D1107320486CEB800E47090 /* MacSaber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MacSaber" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* MacSaber */;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090 /* MacSaber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				9B00EA980A204E220038C0D3 /* MacSaber.icns in Resources */,
+				9B00EACF0A2050210038C0D3 /* hit0.wav in Resources */,
+				9B00EAD00A2050210038C0D3 /* hit1.wav in Resources */,
+				9B00EAD10A2050210038C0D3 /* hit2.wav in Resources */,
+				9B00EAD20A2050210038C0D3 /* hit3.wav in Resources */,
+				9B00EAD30A2050210038C0D3 /* hit4.wav in Resources */,
+				9B00EAD40A2050210038C0D3 /* idle0.wav in Resources */,
+				9B00EAD50A2050210038C0D3 /* idle1.wav in Resources */,
+				9B00EAD60A2050210038C0D3 /* off0.wav in Resources */,
+				9B00EAD70A2050210038C0D3 /* on0.wav in Resources */,
+				9B00EAD80A2050210038C0D3 /* start0.wav in Resources */,
+				9B00EAD90A2050210038C0D3 /* strike0.wav in Resources */,
+				9B00EADA0A2050210038C0D3 /* strike1.wav in Resources */,
+				9B00EADB0A2050210038C0D3 /* strike2.wav in Resources */,
+				9B00EADC0A2050210038C0D3 /* swing0.wav in Resources */,
+				9B00EADD0A2050210038C0D3 /* swing1.wav in Resources */,
+				9B00EADE0A2050210038C0D3 /* swing2.wav in Resources */,
+				9B00EADF0A2050210038C0D3 /* swing3.wav in Resources */,
+				9B00EAE00A2050210038C0D3 /* swing4.wav in Resources */,
+				9B00EAE10A2050210038C0D3 /* swing5.wav in Resources */,
+				9B00EAE20A2050210038C0D3 /* swing6.wav in Resources */,
+				9B00EAE30A2050210038C0D3 /* swing7.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				9B37A3080A1C665E00AA0E72 /* MacSaber.m in Sources */,
+				9B4BFAA50A1E8D8F002FABE6 /* motion.c in Sources */,
+				9B15B98A0A252BBB00F643C9 /* defines.c in Sources */,
+				3CDF184C0A4A7CD8006C31D2 /* backlight.c in Sources */,
+				3CDF187A0A4A8347006C31D2 /* lmutracker.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(LIBRARY_SEARCH_PATHS)",
+					"$(SRCROOT)/../..",
+					"$(SRCROOT)",
+				);
+				OTHER_LDFLAGS = "$(OTHER_LDFLAGS)";
+				PRODUCT_NAME = MacSaber;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(LIBRARY_SEARCH_PATHS)",
+					"$(SRCROOT)/../..",
+					"$(SRCROOT)",
+				);
+				OTHER_LDFLAGS = "$(OTHER_LDFLAGS)";
+				PRODUCT_NAME = MacSaber;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_OBJC_CALL_CXX_CDTORS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				MACH_O_TYPE = mh_execute;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_OBJC_CALL_CXX_CDTORS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = /usr/lib;
+				MACH_O_TYPE = mh_execute;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MacSaber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MacSaber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
